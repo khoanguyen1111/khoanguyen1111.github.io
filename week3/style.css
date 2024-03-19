@@ -1,0 +1,44 @@
+/* universal atribute */
+* {
+  color: blueviolet;
+}
+/* element atribute */
+h1 {
+  color: aqua;
+  font-size: 2 rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: cadetblue;
+}
+span {
+  color: orange;
+}
+
+.my-color {
+  color: coral;
+}
+/* id attribute */
+#venue {
+  color: rgb(0, 255, 132);
+}
+
+/* data attribute */
+[data-email="email"] {
+  color: cornflowerblue;
+}
+
+#second-para {
+  color: rgb(255, 0, 170);
+}
+/* p {
+  text-align: center;
+} */
+body {
+  text-align: center;
+}
+p {
+  line-height: 1.5;
+}
+/* this is a comment */
