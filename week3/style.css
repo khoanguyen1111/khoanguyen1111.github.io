@@ -1,44 +1,84 @@
 /* universal atribute */
-* {
-  color: blueviolet;
-}
+/* * {
+  color: 
+} */
 /* element atribute */
+
+.bahiana-regular {
+  font-family: "Bahiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h1 {
-  color: aqua;
-  font-size: 2 rem;
+  color: white;
+  font-size: 3rem;
   text-transform: uppercase;
+  text-align: center;
+}
+ol{
+    color: white;
+}
+h2 {
+  font-size: larger;
+  text-align: center;
+}
+h3 {
+  font-size: x-large;
+  text-align: center;
 }
 
 p {
-  color: cadetblue;
+  color: white;
+  text-align: center;
+
 }
 span {
-  color: orange;
+  color: white;
+  text-align: center;
 }
 
 .my-color {
-  color: coral;
+  color:white;
 }
 /* id attribute */
 #venue {
-  color: rgb(0, 255, 132);
+  color: white;
 }
 
 /* data attribute */
 [data-email="email"] {
-  color: cornflowerblue;
+  color: white;
 }
 
 #second-para {
-  color: rgb(255, 0, 170);
+  color: white;
 }
 /* p {
   text-align: center;
 } */
 body {
   text-align: center;
+  border: 2px solid chocolate;
+  background-image: radial-gradient(
+    circle,
+    #d16ba5,
+    #d76b7a,
+    #c8765a,
+    #ad834b,
+    #8d8d50,
+    #82995e,
+    #75a371,
+    #68ad87,
+    #68c09e,
+    #67d4b8,
+    #64e7d3,
+    #5ffbf1
+  );
 }
 p {
   line-height: 1.5;
+  text-align: center;
 }
+
 /* this is a comment */
