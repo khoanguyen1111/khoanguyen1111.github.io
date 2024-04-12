@@ -1,0 +1,40 @@
+
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color:#5EC2A1 ;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color:#374B43;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #67B8F4;
+    font-size: 2rem;
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#99B0A7;
+    font-size: medium;
+    font-weight: 100;
+
+}
+
+ol{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #99B0A7;
+}
+
+body{
+    background-color:#D9EDDF ;
+}
