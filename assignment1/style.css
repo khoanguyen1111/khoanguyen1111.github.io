@@ -1,6 +1,6 @@
 
 header{
-    background-color:rgb(255, 255, 255) ;
+    background-color:rgb(228, 242, 236) ;
     padding: 0%;
     margin: 0%;
     overflow-x: hidden;
@@ -30,10 +30,10 @@ h3{
     font-size: 2rem;
 }
 p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:#99B0A7;
     font-size: medium;
-    font-weight: 100;
+    font-weight: 500;
 
 }
 
