@@ -1,11 +1,24 @@
 
 header{
-    background-color:rgb(228, 242, 236) ;
+    background-color:rgb(207, 219, 214) ;
     padding: 0%;
     margin: 0%;
     overflow-x: hidden;
+   
 
 }
+.outer1 {
+    background-color: #eaedef;
+    border: 5px solid #b0be8e;
+    /* width: 800px; */
+    /* height: 350px; */
+    justify-content:center ;
+    align-items: center;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+   
+  }
+
 
 
 h1{
@@ -13,7 +26,7 @@ h1{
     font-style: italic;
     color:#5EC2A1 ;
     font-size: 4rem;
-    text-align: left;
+    text-align: center;
 }
 
 h2{
@@ -21,19 +34,21 @@ h2{
     font-style: italic;
     color:#374B43;
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
 }
 
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #67B8F4;
     font-size: 2rem;
+    text-align: left ;
 }
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:#99B0A7;
-    font-size: medium;
-    font-weight: 500;
+    font-size: large;
+    font-weight: 600;
+    text-align: left;
 
 }
 
@@ -43,7 +58,8 @@ ol{
 }
 
 body{
-    background-color:#D9EDDF ;
+    background-color:rgb(192, 225, 210) ;
+    text-align: center;
 
     
 }
