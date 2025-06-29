@@ -1,136 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment 3</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <!--I was inpsired by this video tutorial by https://www.youtube.com/watch?v=OTjmnF27ADk&t=830s-->
-  <body>
-    <!-- To create a carousel, or a slider navigation, I have to have a class to
-    contain all of the information of the slider information. Bellow I add
-    another layer to contain the slide motion which I will talk more during the
-    style section of the code. Class item is where I keep the information of the
-    attractions and repeat it 6 times for 6 different attractions -->
-    <!-- at the bottom, I add a button that create two button, so that user can click left or right to look at their desire location that they want to visit -->
-
-    <div class="container">
-      <!--container for the carousel slider-->
-      <div class="slide">
-        <!-- container for the carousel item-->
-        <div
-          class="item"
-          style="background-image: url('picture/state library.jpg')"
-        >
-          <!-- State Library information-->
-          <div class="content">
-            <div class="name">State library</div>
-            <div class="descr">Your getaway to knowledge and discovery</div>
-            <a href="https://www.slv.vic.gov.au/" target="library">
-              <!--Link to the website-->
-              <button>See More</button>
-            </a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url('picture/NGV.jpg')">
-          <!-- NGV information-->
-          <div class="content">
-            <div class="name">NGV</div>
-            <div class="descr">
-              Discover art's timeless allure at the National Gallery Victoria
-            </div>
-            <a href="https://www.ngv.vic.gov.au/" target="art">
-              <!--Link to the website-->
-              <button>See More</button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="item"
-          style="background-image: url('picture/Melbourne Museum.jpg')"
-        >
-          <div class="content">
-            <!-- Melbourne Museum information-->
-            <div class="name">Melbourne Museum</div>
-            <div class="descr">
-              Explore Melbourne's cultural treasure at the Melbourne Museum!
-            </div>
-            <a
-              href="https://museumsvictoria.com.au/melbournemuseum/"
-              target="art"
-            >
-              <!--Link to the website-->
-              <button>See More</button>
-            </a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url('picture/MCG.jpg')">
-          <div class="content">
-            <!-- MCG information-->
-            <div class="name">MCG</div>
-            <div class="descr">
-              The iconic Melbourne Cricket Ground, home to sporting legends
-            </div>
-            <a href="https://www.mcg.org.au/" target="MCG">
-              <!--Link to the website-->
-              <button>See More</button>
-            </a>
-          </div>
-        </div>
-        <div
-          class="item"
-          style="background-image: url('picture/Luna Park.jpg')"
-        >
-          <div class="content">
-            <!-- Luna Park information-->
-            <div class="name">Luna Park</div>
-            <div class="descr">Step into the magic of Luna Park!</div>
-            <a href="https://lunapark.com.au/" target="fun">
-              <!--Link to the website-->
-              <button>See More</button>
-            </a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url('picture/Aquarium.jpg')">
-          <div class="content">
-            <!-- Melbourne Aquarium information-->
-            <div class="name">Melbourne Aquarium</div>
-            <div class="descr">
-              Explore the wonders beneath at Melbourne Aquarium!
-            </div>
-            <a href="https://www.visitsealife.com/melbourne/#gref" target="sea">
-              <!--Link to the website-->
-              <button>See More</button>
-            </a>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retro Attractions Carousel</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="slide">
+      <div class="item" style="background-image: url('picture/state library.jpg')">
+        <div class="content">
+          <div class="name">State Library</div>
+          <div class="descr">Your getaway to knowledge and discovery</div>
+          <a href="https://www.slv.vic.gov.au/" target="_blank"><button>See More</button></a>
         </div>
       </div>
-      <div class="button">
-        <!--Navigation for the button of the carousel-->
-        <button id="prev">
-          <!--click to go back to the last slide-->
-          <img
-            id="prev-button"
-            src="https://img.icons8.com/?size=100&id=39944&format=png&color=000000"
-            alt="Prev Button"
-            width="24"
-            height="24"
-          />
-        </button>
-        <button id="next">
-          <!--click to continue to the next slide-->
-          <img
-            id="next-button"
-            src="https://img.icons8.com/?size=100&id=39969&format=png&color=000000"
-            alt="Next Button"
-            width="24"
-            height="24"
-          />
-        </button>
+      <div class="item" style="background-image: url('picture/NGV.jpg')">
+        <div class="content">
+          <div class="name">NGV</div>
+          <div class="descr">Discover art's timeless allure at NGV</div>
+          <a href="https://www.ngv.vic.gov.au/" target="_blank"><button>See More</button></a>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('picture/Melbourne Museum.jpg')">
+        <div class="content">
+          <div class="name">Melbourne Museum</div>
+          <div class="descr">Explore Melbourne's cultural treasure!</div>
+          <a href="https://museumsvictoria.com.au/melbournemuseum/" target="_blank"><button>See More</button></a>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('picture/MCG.jpg')">
+        <div class="content">
+          <div class="name">MCG</div>
+          <div class="descr">Home to sporting legends and epic memories</div>
+          <a href="https://www.mcg.org.au/" target="_blank"><button>See More</button></a>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('picture/Luna Park.jpg')">
+        <div class="content">
+          <div class="name">Luna Park</div>
+          <div class="descr">Step into the magic of Luna Park!</div>
+          <a href="https://lunapark.com.au/" target="_blank"><button>See More</button></a>
+        </div>
+      </div>
+      <div class="item" style="background-image: url('picture/Aquarium.jpg')">
+        <div class="content">
+          <div class="name">Aquarium</div>
+          <div class="descr">Dive into underwater wonder!</div>
+          <a href="https://www.visitsealife.com/melbourne/" target="_blank"><button>See More</button></a>
+        </div>
       </div>
     </div>
-  </body>
+
+    <div class="button">
+      <button id="prev"><img src="https://img.icons8.com/?size=100&id=39944&format=png&color=000000" width="24" height="24" /></button>
+      <button id="next"><img src="https://img.icons8.com/?size=100&id=39969&format=png&color=000000" width="24" height="24" /></button>
+    </div>
+  </div>
+</body>
 </html>
